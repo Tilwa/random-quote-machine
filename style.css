@@ -1,0 +1,56 @@
+* {
+  transition: all 0.5s ease-in-out;
+}
+
+#heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#quote-box {
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+#author {
+  position: absolute;
+  right: 0;
+  margin: 18px;
+  margin-left: 50px;
+  padding: 8px;
+  color: black;
+}
+
+#button1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+  padding: 8px;
+  color: white;
+}
+
+#button2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  padding: 8px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: white;
+}
